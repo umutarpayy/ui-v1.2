@@ -9,6 +9,48 @@
       rel="stylesheet"
     />
     <title>CreateAccount</title>
+
+    <style>
+
+      .button{
+
+        background-color: #0a0a0a; 
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50%;
+        position: absolute;
+        top: 400px;
+        left:1000px;
+
+        }
+
+      .checkbox{
+        position:absolute;
+        top:380px;
+      }
+
+      .form2{
+        display: block;
+        width: 200px;
+        float: left;
+        text-align: right;
+        margin: 10px 5px;
+        clear: left;
+      }
+
+      
+    
+
+
+    </style>
+
+
   </head>
   <body>
     <main>
@@ -20,6 +62,62 @@
             <li><a href="3_CreateAccount.html">Create Account</a></li>
           </ul>
         </nav>
+
+        
+        
+        
+        <div class = "my-form">
+
+          <form style="position: absolute; top:200px; left:300px;" >
+      
+              <label>First Name: </label>
+              <input type="text" name="First Name">
+              <br/> <br/><br/> 
+              <label>Username: </label>
+              <input type="text" name="username">
+              <br/><br/> <br/>
+              <label>Password: </label>
+              <input type="text" name="password">
+            
+           </form>
+
+           <div  class = "form2">
+          
+            <form style="position:absolute; top: 200px; left:800px ">
+             
+              <label>Last Name: </label>
+              <input type="text" name="Last Name">
+              <br/> <br/><br/> 
+              <label>Email Address:</label>
+              <input type="email" name="email address">
+              <br/> <br/><br/> 
+              <label>Confirm password:</label>
+              <input type="password" name="confirm password">
+
+            </form>
+
+          </div>
+          
+           
+        
+
+             
+             <a href = "5_Payment.html" class = "button">next</a>
+
+              
+
+
+        <div class = "checkbox" style="position: absolute; left: 300px;">
+           <form>
+          <input type="checkbox" id="vehicle1" name="checkbox1" value="I accept the terms of policy.">
+          <label for="checkbox1"> I accept the terms of policy.</label><br>
+          <input type="checkbox" id="vehicle2" name="checkbox2" value="Send me emails.">
+          <label for="checkbox2"> Send me emails.</label><br>
+          
+        </form>
+           </div>
+        
+         
       </section>
       <footer>
         <ul class="footer-links">
@@ -29,7 +127,10 @@
         </ul>
         
     </footer>
+
+
     </main>
+    
   
   </body>
 </html> 

@@ -9,7 +9,85 @@
       rel="stylesheet"
     />
     <title>Payment</title>
+
+    <style>
+     
+
+      
+      .my-form-payment{
+        display: block;
+        width: 200px;
+        float: left;
+        text-align: right;
+        margin: 10px 5px;
+        clear: left;
+        color: white;
+      }
+
+      .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.subscription{
+  float: left;
+  position: absolute;
+  top: 200px;
+  left:850px;
+  color: white;
+}
+.button4{
+
+background-color: #0a0a0a; 
+color: white;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 50%;
+position: absolute;
+top: 500px;
+left:1000px;
+
+}
+
+    
+    </style>
   </head>
+
   <body>
     <main>
       <section class="landing">
@@ -20,7 +98,57 @@
             <li><a href="3_CreateAccount.html">Create Account</a></li>
           </ul>
         </nav>
+
+        
+      </form >
       </section>
+      <div class  = "my-form-payment">
+
+        <form style="position: absolute; top:200px; left:300px;" >
+    
+            <label>Name on card: </label>
+            <input type="text" name="First Name">
+            <br/> <br/><br/> 
+            <label>Credit card number: </label>
+            <input type="text" name="username">
+            <br/><br/> <br/>
+            <label>MM/YY: </label>
+            <input type="text" name="password">
+            <br/><br/> <br/>
+            <label>CVC: </label>
+            <input type="text" name="password">
+            <br/><br/> <br/>
+            <label>Country: </label>
+            <input type="text" name="password">
+            <br/><br/> <br/>
+            <label>Postal code: </label>
+            <input type="text" name="password">
+            
+
+
+          
+         </form>
+
+
+      </div>
+
+      <div class = "subscription">
+        <h3>Choose subscription</h3>
+      </br></br>
+
+        <button class="button button1">$9.99 Monthly</button>
+      </br></br></br>
+        <button class="button button2">$39.99 yearly</button>
+      </div>
+
+
+      <a href = "6_HomePageAfterLogin.html" class = "button4">create account</a>
+
+      
+
+
+      
+
       <footer>
         <ul class="footer-links">
           <li><a href="28_TermsOfUse.html">TERMS OF USE</a></li>
